@@ -1,0 +1,53 @@
+/* C5, C6, C7, C8: <body> font and color settings */
+body {
+    font-family: 'Roboto', Arial, sans-serif; /* Roboto and alternative font families */
+    color: #333333; /* Dominant text color from the layout, example provided */
+    background-color: #ffffff; /* Dominant background color from the layout, example provided */
+    margin: 0; /* Resetting browser defaults */
+    padding: 0;
+  }
+  
+  /* C1: Using class selectors for styling */
+  .button {
+    background-color: #007bff; /* Button background color from the layout */
+    color: #ffffff; /* Button text color from the layout */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* C13: cursor pointer setting */
+  }
+  
+  /* C3, C13: Button hover and focus states */
+  .button:hover, .button:focus {
+    background-color: #0056b3; /* Button background color on hover/focus */
+  }
+  
+  /* C4: Person name hover and focus states */
+  .person-name:hover, .person-name:focus {
+    color: #0056b3; /* Person name color on hover/focus */
+  }
+  
+  /* C9, C10: Font size and line height */
+  h1, h2, h3, h4, h5, h6, p, span {
+    font-size: 1rem; /* Matching the layout value */
+    line-height: 1.5; /* Matching the layout value */
+  }
+  
+  /* C12: Font weight */
+  h1 {
+    font-weight: 700; /* Matching the layout value */
+  }
+  h2 {
+    font-weight: 600; /* Matching the layout value */
+  }
+  p {
+    font-weight: 400; /* No need to explicitly define default font weight */
+  }
+  
+  /* C11: Colors align with the layout */
+  h1, h2, h3, h4, h5, h6 {
+    color: #333333; /* Header colors matching the layout */
+  }
+  
+  /* Avoided redundant declaration of browser defaults (C14) */
+  
