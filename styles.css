@@ -3,23 +3,34 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
-  color: rgb(255, 252, 252);
+  color: rgb(5, 5, 5);
 }
 
 header {
-  background-color: #f1eded;
-  color: #0f0f0f;
+  background-color: #f8f6f6;
+  color: #fdfcfc;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem;
 }
 
+header nav {
+  display: flex;
+  align-items: center;
+}
+
 header nav a {
-  color: #0a0a0a;
+  color: #f7f2f2;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
+  margin-right: 2rem;
+}
+
+header nav a img {
+  width: 150px; /* Logo boyutunu burada ayarlayabilirsiniz */
+  height: auto;
 }
 
 header nav ul {
@@ -30,7 +41,7 @@ header nav ul {
 }
 
 header nav ul li {
-  margin: 0 2rem;
+  margin: 0 1.5rem;
 }
 
 header nav ul li a {
@@ -52,7 +63,7 @@ header address ul {
 }
 
 header address ul li a {
-  color: #161515;
+  color: #070707;
   text-decoration: none;
 }
 
@@ -67,10 +78,11 @@ header address ul li a {
   font-size: 2.5rem;
   font-family: 'Raleway', sans-serif;
   margin-bottom: 1rem;
+  color: white;
 }
 
 #intro button {
-  background-color: rgb(24, 124, 206);
+  background-color: rgb(59, 59, 248);
   color: white;
   border: none;
   padding: 0.8rem 1.5rem;
@@ -80,7 +92,14 @@ header address ul li a {
 }
 
 #intro button:hover {
-  background-color:#080808 ;
+  background-color: #f3f0f0;
+}
+#intro h1 {
+  font-size: 2.5rem;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center; /* Center-align the heading */
 }
 
 /* Section: Services */
@@ -107,7 +126,7 @@ header address ul li a {
 
 #services ul li {
   background-color: #f3f2f2;
-  border: 1px solid wh;
+  border: 1px solid #fff;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(248, 245, 245, 0.1);
@@ -158,7 +177,7 @@ header address ul li a {
 
 /* Footer */
 footer {
-  background-color: #333;
+  background-color: #2e2f42;
   color: #fff;
   text-align: center;
   padding: 2rem 1rem;
@@ -174,4 +193,9 @@ footer a {
 footer p {
   margin-top: 1rem;
   font-size: 0.9rem;
+}
+/* Footer Logo */
+footer .footer-logo-image {
+  width: 120px; /* Adjust the size of the logo */
+  height: auto;
 }
