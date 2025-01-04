@@ -31,6 +31,12 @@ header nav a {
 header nav a img {
   width: 150px; /* Logo boyutunu burada ayarlayabilirsiniz */
   height: auto;
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 header nav ul {
