@@ -6,67 +6,66 @@ body {
   line-height: 1.6;
   color: rgb(5, 5, 5);
 }
-
-header {
-  background-color: #f8f6f6;
-  color: #fdfcfc;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.2rem;
+/* Genel Header Stilleri */
+.header-nav {
+  display: flex; /* Flexbox düzeni */
+  justify-content: space-between; /* Sol ve sağ tarafı ayır */
+  align-items: center; /* Dikeyde ortala */
+  padding: 10px 20px; /* İçerik boşluğu */
+  background-color: #f8f9fa; /* Arka plan rengi */
+  border-bottom: 1px solid #ddd; /* Alt çizgi */
 }
 
-header nav {
-  display: flex;
-  align-items: center;
+/* Sol Bölüm: Logo ve Menü */
+.left-section {
+  display: flex; /* Yatay hizalama */
+  align-items: center; /* Dikeyde ortala */
+  gap: 20px; /* Logo ve menü arasına boşluk */
 }
 
-header nav a {
-  color: #f7f2f2;
-  text-decoration: none;
-  font-size: 1.5rem;
+.logo-header {
+  font-size: 24px;
   font-weight: bold;
-  margin-right: 2rem;
+  text-decoration: none;
+  color: #000;
 }
 
-header nav a img {
-  width: 150px; /* Logo boyutunu burada ayarlayabilirsiniz */
-  height: auto;
-}
-
-header nav ul {
-  list-style: none;
-  display: flex;
+.nav-list {
+  display: flex; /* Yatay hizala */
+  gap: 15px; /* Menü elemanları arasında boşluk */
+  list-style: none; /* Liste noktalarını kaldır */
   margin: 0;
   padding: 0;
 }
 
-header nav ul li {
-  margin: 0 1.5rem;
-}
-
-header nav ul li a {
-  color: #020202;
+.nav-item {
   text-decoration: none;
-  font-weight: 100;
+  color: #000;
+  font-size: 16px;
 }
 
-header nav ul li a:hover {
-  text-decoration: underline;
+.nav-item:hover {
+  color: #007BFF; /* Hover efekti */
 }
 
-header address ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 1rem;
+/* Sağ Bölüm: İletişim Bilgileri */
+.right-section {
+  margin-left: auto; /* Sağ tarafa yasla */
+  display: flex; /* Yatay hizalama */
+  align-items: center; /* Dikeyde ortala */
+  gap: 20px; /* Email ve Telefon arasında boşluk */
 }
 
-header address ul li a {
-  color: #070707;
+.contact-item {
   text-decoration: none;
+  font-size: 14px;
+  color: #555;
 }
+
+.contact-item:hover {
+  color: #007BFF; /* Hover efekti */
+}
+
 
 /* Section: Intro */
 #intro {
@@ -175,92 +174,51 @@ header address ul li a {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
-/* Section 4 Specific Styles */
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 20px;
-}
-
-li img {
-  width: 360px;
-}
-
-.item-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.item-description {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-/* Section 4 Specific Styles */
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-/* Image List Container */
+/* Resim Listesi */
 .image-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px; /* Adjust the gap between items */
-  list-style: none;
+  display: grid; /* Grid düzeni kullan */
+  grid-template-columns: repeat(3, 1fr); /* 3 sütun */
+  gap: 20px; /* Elemanlar arasında boşluk */
   padding: 0;
+  list-style: none; /* Noktaları kaldır */
+  margin: 0 auto; /* Ortalamak için */
+  max-width: 1200px; /* Maksimum genişlik */
 }
 
-/* Each list item */
+/* Her Liste Öğesi */
 .image-list li {
-  text-align: center;
+  background-color: #f9f9f9; /* Hafif arka plan rengi */
+  border: 1px solid #ddd; /* Kenarlık */
+  border-radius: 8px; /* Köşeleri yuvarla */
+  overflow: hidden; /* Taşmaları önle */
+  text-align: center; /* İçeriği ortala */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  transition: transform 0.3s, box-shadow 0.3s; /* Hover animasyonu */
 }
 
-/* Image size */
+/* Hover Efekti */
+.image-list li:hover {
+  transform: scale(1.05); /* Biraz büyüt */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Gölgeyi artır */
+}
+
+/* Resimler */
 .image-list img {
-  width: 100%; /* Make the image responsive to container width */
-  max-width: 360px;
-  margin-bottom: 10px;
+  width: 100%; /* Resmi liste elemanına göre boyutlandır */
+  height: auto;
 }
 
-/* Item Title */
+/* Başlık ve Açıklama */
 .item-title {
-  font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  font-weight: bold;
+  margin: 10px 0 5px;
+  color: #333;
 }
 
-/* Item Description */
 .item-description {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  font-size: 14px;
 }
-
-
 /* Footer */
 footer {
   background-color: #2e2f42;
