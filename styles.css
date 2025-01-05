@@ -1,28 +1,13 @@
 /* General Styles */
 body {
-  margin:0;
-  font-family:"Roboto", sans-serif;
-  line-height:1.6;
-  color:#434455;
-  background-color:#FFFFFF;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  color: #434455;
+  background-color: #f9f9f9;
 }
+
 /* Header */
-/* Logo Stili */
-.logo_class {
-  font-family: "Raleway"; /* Font ailesi */
-  font-weight: 700; /* Yazı kalınlığı */
-  font-size: 18px; /* Yazı boyutu */
-  line-height: 1.17; /* Satır aralığı */
-  letter-spacing: 0.03em; /* Harfler arasındaki boşluk */
-  text-transform: uppercase; /* Harflerin büyük harf ile görüntülenmesi */
-  color: #4d5ae5; /* Metin rengi */
-}
-
-/* <span> Etiketi Stili */
-.span_class {
-  /* İsterseniz <span> için özel stiller ekleyebilirsiniz */
-}
-
 header {
   background-color: #f8f6f6;
   color: #2e2f42;
@@ -102,36 +87,31 @@ header address ul li a {
 }
 
 /* Section 1 - Intro */
-/* Section Stili */
-.my_section {
-  background-color: #2e2f42; /* Arka plan rengi */
+#intro {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #2e2f42;
 }
 
-/* <h1> Etiketi Stilleri */
-.my_h1 {
-  font-size: 56px; /* Metin boyutu */
-  line-height: 1.07; /* Satır aralığı */
-  text-align: center; /* Metin hizalaması */
-  letter-spacing: 0.02em; /* Harfler arasındaki boşluk */
-  color: #ffffff; /* Metin rengi */
+#intro h1 {
+  font-size: 2.5rem;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 1rem;
+  color: white;
 }
 
-/* <button> Etiketi Stilleri */
-.my_button {
-  background-color: #4D5AE5; /* Arka plan rengi */
-  font-family: "Roboto", sans-serif; /* Yazı tipi */
-  font-weight: 500; /* Yazı kalınlığı */
-  font-size: 16px; /* Yazı boyutu */
-  line-height: 1.5; /* Satır aralığı */
-  letter-spacing: 0.04em; /* Harfler arasındaki boşluk */
-  color: #ffffff; /* Metin rengi */
-  cursor: pointer; /* Fare imleci stili */
+#intro button {
+  background-color: rgb(59, 59, 248);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-/* Hover ve Focus Efektleri */
-.my_button:hover,
-.my_button:focus {
-  background-color: #404BBF; /* Hover ve focus durumunda arka plan rengi */
+#intro button:hover {
+  background-color: #f3f0f0;
 }
 
 /* Section 2 - Services */
@@ -171,43 +151,41 @@ header address ul li a {
 }
 
 /* Section 3 - About */
-/* Section Stili */
-.my_section {
-  background-color: #f4f4fd; /* Arka plan rengi */
+#about {
+  padding: 2rem 1rem;
 }
 
-/* <h2> Etiketi Stilleri */
-.my_h2 {
-  font-size: 36px; /* Metin boyutu */
-  line-height: 1.11; /* Satır aralığı */
-  text-align: center; /* Metin hizalaması */
-  letter-spacing: 0.02em; /* Harfler arasındaki boşluk */
-  text-transform: capitalize; /* İlk harflerin büyük olması */
-  color: #2e2f42; /* Metin rengi */
+#about h2 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
-/* Liste Elemanları Stili */
-.my_list_item {
-  /* Liste elemanları için özel stiller buraya eklenebilir */
+#about ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-/* <h3> Etiketi Stilleri */
-.my_h3 {
-  font-weight: 500; /* Yazı kalınlığı */
-  font-size: 20px; /* Yazı boyutu */
-  line-height: 1.2; /* Satır aralığı */
-  letter-spacing: 0.02em; /* Harfler arasındaki boşluk */
-  color: #2e2f42; /* Metin rengi */
+#about ul li {
+  text-align: center;
 }
 
-/* <p> Etiketi Stilleri */
-.my_paragraph {
-  font-size: 16px; /* Yazı boyutu */
-  line-height: 1.5; /* Satır aralığı */
-  letter-spacing: 0.02em; /* Harfler arasındaki boşluk */
-  color: #434455; /* Metin rengi */
+#about ul li img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
+#about ul li h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
 
 /* Section 4 */
 .my_section {
@@ -227,14 +205,10 @@ p {
   letter-spacing: 0.02em;
 }
 
-
-.section_title_class h2 {
-  font-size: 36px; 
-  line-height: 1.11; 
-  text-align: center; 
-  letter-spacing: 0.02em; 
-  text-transform: capitalize; 
-  color: #2e2f42; 
+h2 {
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 h3 {
@@ -246,29 +220,30 @@ h3 {
 }
 
 /* Footer */
+/* <footer> Etiketi Stilleri */
 .footer_class {
-  background-color: #2e2f42; 
+  background-color: #2e2f42; /* Arka plan rengi */
 }
 
-/* Logo style */
+/* Logo Stili */
 .logo_class {
-  font-family: "Raleway"; 
-  font-weight: 700; 
-  font-size: 18px;
-  line-height: 1.17; 
-  letter-spacing: 0.03em; 
-  text-transform: uppercase; 
-  color: #4d5ae5; 
+  font-family: "Raleway"; /* Font ailesi */
+  font-weight: 700; /* Yazı kalınlığı */
+  font-size: 18px; /* Yazı boyutu */
+  line-height: 1.17; /* Satır aralığı */
+  letter-spacing: 0.03em; /* Harfler arasındaki boşluk */
+  text-transform: uppercase; /* Harflerin büyük harf ile görüntülenmesi */
+  color: #4d5ae5; /* Metin rengi */
 }
 
-/* <span> tag style */
+/* <span> Etiketi Stili */
 .span_class {
-  color: #2e2f42; 
+  color: #2e2f42; /* Metin rengi */
 }
 
-/* <p> tag style  */
+/* <p> Etiketi Stilleri */
 .footer_paragraph {
-  line-height: 1.5;
-  color: #F4F4FD; 
-  letter-spacing: 0.02em;
+  line-height: 1.5; /* Satır aralığı */
+  color: #F4F4FD; /* Metin rengi */
+  letter-spacing: 0.02em; /* Harfler arasındaki mesafe */
 }
