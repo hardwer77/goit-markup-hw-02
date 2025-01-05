@@ -4,7 +4,9 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
-  color: rgb(5, 5, 5);
+  color: #434455;
+  background-color: #FFFFFF;
+
 }
 /* Genel Header Stilleri */
 .header-nav {
