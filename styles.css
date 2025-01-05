@@ -207,25 +207,27 @@ header address ul li a {
 
 /*selection 4*/
 /* <p> Etiketi Stilleri */
-p {
-  line-height: 1.5; /* Satır aralığı */
-  letter-spacing: 0.02em; /* Harfler arasındaki mesafe */
-}
 
+p {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /* <h2> Etiketi Stilleri */
 h2 {
-  letter-spacing: 0.02em; /* Harfler arasındaki boşluk */
-  text-transform: capitalize; /* İlk harf büyük */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
+
 
 /* <h3> Etiketi Stilleri */
 h3 {
-  font-weight: 500; /* Yazı kalınlığı */
-  font-size: 20px; /* Yazı boyutu */
-  line-height: 1.2; /* Satır aralığı */
-  letter-spacing: 0.02em; /* Harfler arasındaki mesafe */
-  color: #2e2f42; /* Metin rengi */
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
+
 /*section 4 end*/
 
 /*footer */
