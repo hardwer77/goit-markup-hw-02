@@ -227,14 +227,26 @@ footer {
   padding: 2rem 1rem;
 }
 
-footer a {
-  color: #fff;
+footer a.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 1.2rem;
+  display: inline-block;
 }
 
-footer p {
+footer a.logo-link span {
+  color: #2e2f42;
+  font-weight: normal;
+}
+
+footer p.text-content {
+  line-height: 1.5;
+  color: #F4F4FD;
+  letter-spacing: 0.02em;
   margin-top: 1rem;
   font-size: 0.9rem;
 }
