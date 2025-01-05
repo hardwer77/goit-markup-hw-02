@@ -7,6 +7,22 @@ body {
   background-color:#FFFFFF;
 }
 /* Header */
+/* Logo Stili */
+.logo_class {
+  font-family: "Raleway"; /* Font ailesi */
+  font-weight: 700; /* Yazı kalınlığı */
+  font-size: 18px; /* Yazı boyutu */
+  line-height: 1.17; /* Satır aralığı */
+  letter-spacing: 0.03em; /* Harfler arasındaki boşluk */
+  text-transform: uppercase; /* Harflerin büyük harf ile görüntülenmesi */
+  color: #4d5ae5; /* Metin rengi */
+}
+
+/* <span> Etiketi Stili */
+.span_class {
+  /* İsterseniz <span> için özel stiller ekleyebilirsiniz */
+}
+
 header {
   background-color: #f8f6f6;
   color: #2e2f42;
