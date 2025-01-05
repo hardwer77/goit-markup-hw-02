@@ -175,6 +175,91 @@ header address ul li a {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
+/* Section 4 Specific Styles */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+li img {
+  width: 360px;
+}
+
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* Section 4 Specific Styles */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/* Image List Container */
+.image-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Adjust the gap between items */
+  list-style: none;
+  padding: 0;
+}
+
+/* Each list item */
+.image-list li {
+  text-align: center;
+}
+
+/* Image size */
+.image-list img {
+  width: 100%; /* Make the image responsive to container width */
+  max-width: 360px;
+  margin-bottom: 10px;
+}
+
+/* Item Title */
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* Item Description */
+.item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 
 /* Footer */
 footer {
