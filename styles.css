@@ -7,48 +7,28 @@ body {
   color: rgb(5, 5, 5);
 }
 /* Genel Header Stilleri */
-/* Logo stil */
-.logo_class {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+.header-nav {
+  display: flex; /* Flexbox düzeni */
+  justify-content: space-between; /* Sol ve sağ tarafı ayır */
+  align-items: center; /* Dikeyde ortala */
+  padding: 10px 20px; /* İçerik boşluğu */
+  background-color: #f8f9fa; /* Arka plan rengi */
+  border-bottom: 1px solid #ddd; /* Alt çizgi */
 }
 
-.studio_class {
-  color: #2e2f42;
+/* Sol Bölüm: Logo ve Menü */
+.left-section {
+  display: flex; /* Yatay hizalama */
+  align-items: center; /* Dikeyde ortala */
+  gap: 20px; /* Logo ve menü arasına boşluk */
 }
 
-/* Navigasyon menüsü stil */
-.nav_item_class {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+.logo-header {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
 }
-
-.nav_item_class:hover,
-.nav_item_class:focus {
-  color: #404bbf;
-}
-
-/* Address etiketi stil */
-.address_class {
-  font-style: normal;
-}
-
-.address_class ul {
-  list-style-type: none;
-}
-
-.address_class li {
-  margin-bottom: 10px;
-}
-
 
 .nav-list {
   display: flex; /* Yatay hizala */
