@@ -167,6 +167,17 @@ header address ul li a {
 }
 
 /* Section: About */
+.my_section {
+  background-color: #f4f4fd;  /* Arkaplan rengi */
+  padding: 20px;               /* İçerik ile kenarlar arasındaki boşluk */
+}
+
+.section_title {
+  font-size: 36px;             /* Metin boyutu */
+  line-height: 1.11;           /* Satır aralığı */
+  color: #2e2f42;              /* Metin rengi */
+}
+
 #about {
   padding: 2rem 1rem;
 }
@@ -201,29 +212,6 @@ header address ul li a {
 #about ul li h3 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-}
-.section_title {
-  font-size: 36px;          /* Metin boyutu */
-  line-height: 1.11;        /* Satır aralığı */
-  text-align: center;       /* Metin hizalaması */
-  letter-spacing: 0.02em;   /* Harfler arası boşluk */
-  text-transform: capitalize; /* İlk harfleri büyük yap */
-  color: #2e2f42;           /* Metin rengi */
-}
-
-.feature_title {
-  font-weight: 500;         /* Yazı tipi kalınlığı */
-  font-size: 20px;          /* Yazı tipi boyutu */
-  line-height: 1.2;         /* Satır aralığı */
-  letter-spacing: 0.02em;   /* Harf aralığı */
-  color: #2e2f42;           /* Metin rengi */
-}
-
-.feature_description {
-  font-size: 16px;          /* Yazı tipi boyutu */
-  line-height: 1.5;         /* Satır aralığı */
-  letter-spacing: 0.02em;   /* Harf aralığı */
-  color: #434455;           /* Metin rengi */
 }
 
 
