@@ -214,8 +214,10 @@ p {
 }
 /* <h2> Etiketi Stilleri */
 h2 {
+  font-size: 36px; /* Metin boyutu */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+ 
 }
 
 
@@ -226,7 +228,9 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
+  
+  }
+
 
 /*section 4 end*/
 
