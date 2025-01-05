@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -5,30 +6,16 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-/*header*/
+
+/* Header */
 header {
   background-color: #f8f6f6;
-  color: #fdfcfc;
+  color: #2e2f42;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem;
   font-weight: 500;
-  color: #2e2f42; /* Text color */
-}
-
-.link_class {
-  font-weight: 500; /* Font weight */
-  font-size: 16px; /* Font size */
-  line-height: 1.5; /* Line height */
-  letter-spacing: 0.02em; /* Letter spacing */
-  color: #2e2f42; /* Text color */
-  text-decoration: none; /* No underline */
-}
-
-.link_class:hover,
-.link_class:focus {
-  color: #404bbf; /* Change text color on hover and focus */
 }
 
 header nav {
@@ -37,7 +24,7 @@ header nav {
 }
 
 header nav a {
-  color: #f7f2f2;
+  color: #2e2f42;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
@@ -45,15 +32,9 @@ header nav a {
 }
 
 header nav a img {
-  width: 150px; /* Logo size */
+  width: 150px;
   height: auto;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px; /* Font size */
-  line-height: 1.17; /* Line height */
-  letter-spacing: 0.03em; /* Letter spacing */
-  text-transform: uppercase; /* Uppercase letters */
-  color: #4d5ae5; /* Text color */
-  font-weight: 700; /* Font weight */
+  display: block;
 }
 
 header nav ul {
@@ -89,8 +70,23 @@ header address ul li a {
   color: #070707;
   text-decoration: none;
 }
-/*header end*/
-/*selection 1*/
+
+/* Links */
+.link_class {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.link_class:hover,
+.link_class:focus {
+  color: #404bbf;
+}
+
+/* Section 1 - Intro */
 #intro {
   text-align: center;
   padding: 3rem 1rem;
@@ -117,12 +113,11 @@ header address ul li a {
 #intro button:hover {
   background-color: #f3f0f0;
 }
-/*selection 1 end*/
 
-/*selection 2*/
+/* Section 2 - Services */
 #services {
   padding: 2rem 1rem;
-  background-color: #ffff;
+  background-color: #ffffff;
 }
 
 #services h2 {
@@ -154,20 +149,8 @@ header address ul li a {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
-/*selection 2 end*/
 
-/*selection 3*/
-.my_section {
-  background-color: #f4f4fd;  /* Background color */
-  padding: 20px;               /* Padding */
-}
-
-.section_title {
-  font-size: 36px;             /* Font size */
-  line-height: 1.11;           /* Line height */
-  color: #2e2f42;              /* Text color */
-}
-
+/* Section 3 - About */
 #about {
   padding: 2rem 1rem;
 }
@@ -203,38 +186,40 @@ header address ul li a {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
-/*selection 3 end*/
 
-/*selection 4*/
-/* <p> Etiketi Stilleri */
+/* Section 4 */
+.my_section {
+  background-color: #f4f4fd;
+  padding: 20px;
+}
 
+.section_title {
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+}
+
+/* Typography */
 p {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* <h2> Etiketi Stilleri */
+
 h2 {
-  font-size: 36px; /* Metin boyutu */
+  font-size: 36px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
- 
 }
 
-
-/* <h3> Etiketi Stilleri */
 h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  
-  }
+}
 
-
-/*section 4 end*/
-
-/*footer */
+/* Footer */
 footer {
   background-color: #2e2f42;
   color: #fff;
@@ -254,15 +239,15 @@ footer p {
   font-size: 0.9rem;
 }
 
-/* Footer Logo */
 footer .footer-logo-image {
-  width: 120px; /* Adjust the size of the logo */
+  width: 120px;
   height: auto;
-  font-family: "Raleway";
+  display: block;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
-/*footer end*/
