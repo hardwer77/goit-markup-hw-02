@@ -10,25 +10,26 @@
 <body>
 
     <!-- Header -->
-    <header> 
-      <nav>
-        <!-- Logo Görseli Buraya Ekleniyor -->
-        <a href="/index.html">
-          <img src="./Logo (1).png" alt="#" class="#">
-        </a>
-        <ul>
-          <li><a href="#section1">Studio</a></li>
-          <li><a href="#section2">Portfolio</a></li>
-          <li><a href="#section3">Contacts</a></li>
-        </ul>
+    <header>
+      <nav class="header-nav">
+        <!-- Sol taraf: Logo ve Menü -->
+        <div class="left-section">
+         <img src="./logo1.png" alt="">
+          <ul class="nav-list">
+            <li><a class="nav-item" href="#">Studio</a></li>
+            <li><a class="nav-item" href="#">Portfolio</a></li>
+            <li><a class="nav-item" href="#">Contacts</a></li>
+          </ul>
+        </div>
+    
+        <!-- Sağ taraf: İletişim bilgileri -->
+        <div class="right-section">
+          <a class="contact-item email-link" href="mailto:info@webstudio.com">info@webstudio.com</a>
+          <a class="contact-item phone-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+        </div>
       </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
     </header>
+    
     <!-- Header space is finished -->
 
     <!-- Main -->
@@ -101,6 +102,42 @@
           </li>
         </ul>
       </section>
+      <!--section 4-->
+      <section>
+        <h2 class="section-title">>Our Portfolio</h2>
+        <ul class="image-list">
+          <li>
+            <img src="./images5.jpg" alt="Banking Application" width="360">
+            <h3 class="item-title">Banking Application</h3>
+            <p class="item-description">App</p>
+          </li>
+          <li>
+            <img src="./images6.jpg" alt="Cashless Payment" width="360">
+            <h3 class="item-title">Cashless Payment</h3>
+            <p class="item-description">Marketing</p>
+          </li>
+          <li>
+            <img src="./images7.jpg" alt="Meditation App" width="360">
+            <h3 class="item-title">Meditation App</h3>
+            <p class="item-description">App</p>
+          </li>
+          <li>
+            <img src="./images8.jpg" alt="Taxi Service" width="360">
+            <h3 class="item-title">Taxi Service</h3>
+            <p class="item-description">Marketing</p>
+          </li>
+          <li>
+            <img src="./images9.jpg" alt="Screen Illustrations" width="360">
+            <h3 class="item-title">Screen Illustrations</h3>
+            <p class="item-description">Design</p>
+          </li>
+          <li>
+            <img src="./images10.jpg" alt="Online Courses" width="360">
+            <h3 class="item-title">Online Courses</h3>
+            <p class="item-description">Marketing</p>
+          </li>
+        </ul>
+      </section>
     </main>
     <!-- Main space is finished -->
 
@@ -108,7 +145,7 @@
   <!-- Footer -->
 <footer>
   <a href="/index.html" class="footer-logo">
-    <img src="./Logo (1).png" alt="#" class="#">
+    <img src="./Logo1.png" alt="#" class="#">
   </a>
   <p>
     Increase the flow of customers and sales for your business with digital
