@@ -1,17 +1,14 @@
-/* ================================== */
-/* HEAD: Genel Tarzlar (Body, Fonts) */
-/* ================================== */
+
+/* General styles */
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   color: #434455;
   background-color: #FFFFFF;
-}
 
-/* ================================== */
-/* HEADER 1: Genel Header Stilleri */
-/* ================================== */
+}
+/* Genel Header Stilleri */
 .header-nav {
   display: flex; /* Flexbox düzeni */
   justify-content: space-between; /* Sol ve sağ tarafı ayır */
@@ -21,10 +18,10 @@ body {
   border-bottom: 1px solid #ddd; /* Alt çizgi */
 }
 
-/* HEADER 2: Sol Bölüm (Logo ve Menü) */
+/* Sol Bölüm: Logo ve Menü */
 .left-section {
   font-family: "Raleway";
-  font-weight: 700;
+  font-weight: 700; 
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -60,7 +57,7 @@ body {
   color: #007BFF; /* Hover efekti */
 }
 
-/* HEADER 3: Sağ Bölüm (İletişim Bilgileri) */
+/* Sağ Bölüm: İletişim Bilgileri */
 .right-section {
   margin-left: auto; /* Sağ tarafa yasla */
   display: flex; /* Yatay hizalama */
@@ -78,13 +75,12 @@ body {
   color: #007BFF; /* Hover efekti */
 }
 
-/* ================================== */
-/* SECTION 1: Intro Bölümü */
-/* ================================== */
+
+/* Section: Intro */
 #intro {
   text-align: center;
   padding: 3rem 1rem;
-  background: #2e2f42;
+  background:  #2e2f42;
 }
 
 #intro h1 {
@@ -92,7 +88,6 @@ body {
   font-family: 'Raleway', sans-serif;
   margin-bottom: 1rem;
   color: white;
-  text-align: center; /* Başlığı ortala */
 }
 
 #intro button {
@@ -108,10 +103,15 @@ body {
 #intro button:hover {
   background-color: #f3f0f0;
 }
+#intro h1 {
+  font-size: 2.5rem;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center; /* Center-align the heading */
+}
 
-/* ================================== */
-/* SECTION 2: Services (Hizmetler) */
-/* ================================== */
+/* Section: Services */
 #services {
   padding: 2rem 1rem;
   background-color: #ffff;
@@ -147,9 +147,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* ================================== */
-/* SECTION 3: About (Hakkımızda) */
-/* ================================== */
+/* Section: About */
 #about {
   padding: 2rem 1rem;
 }
@@ -185,10 +183,7 @@ body {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
-
-/* ================================== */
-/* SECTION 4: Resim Listesi */
-/* ================================== */
+/* Resim Listesi */
 .image-list {
   display: grid; /* Grid düzeni kullan */
   grid-template-columns: repeat(3, 1fr); /* 3 sütun */
@@ -199,6 +194,7 @@ body {
   max-width: 1200px; /* Maksimum genişlik */
 }
 
+/* Her Liste Öğesi */
 .image-list li {
   background-color: #f9f9f9; /* Hafif arka plan rengi */
   border: 1px solid #ddd; /* Kenarlık */
@@ -209,16 +205,19 @@ body {
   transition: transform 0.3s, box-shadow 0.3s; /* Hover animasyonu */
 }
 
+/* Hover Efekti */
 .image-list li:hover {
   transform: scale(1.05); /* Biraz büyüt */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Gölgeyi artır */
 }
 
+/* Resimler */
 .image-list img {
   width: 100%; /* Resmi liste elemanına göre boyutlandır */
   height: auto;
 }
 
+/* Başlık ve Açıklama */
 .item-title {
   font-size: 20px;
   font-weight: bold;
@@ -229,10 +228,7 @@ body {
 .item-description {
   font-size: 14px;
 }
-
-/* ================================== */
-/* FOOTER */
-/* ================================== */
+/* Footer */
 footer {
   background-color: #2e2f42;
   color: #fff;
@@ -251,7 +247,7 @@ footer p {
   margin-top: 1rem;
   font-size: 0.9rem;
 }
-
+/* Footer Logo */
 footer .footer-logo-image {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -259,6 +255,6 @@ footer .footer-logo-image {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  width: 120px;
+  width: 120px; /* Adjust the size of the logo */
   height: auto;
 }
