@@ -8,85 +8,47 @@ body {
   background-color: #FFFFFF;
 
 }
-/* General Styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+/* Genel Header Stilleri */
+.header-nav {
+  display: flex; /* Flexbox düzeni */
+  justify-content: space-between; /* Sol ve sağ tarafı ayır */
+  align-items: center; /* Dikeyde ortala */
+  padding: 10px 20px; /* İçerik boşluğu */
+  background-color: #f8f9fa; /* Arka plan rengi */
+  border-bottom: 1px solid #ddd; /* Alt çizgi */
 }
 
-/* Nav Styles */
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #f9f9f9;
+/* Sol Bölüm: Logo ve Menü */
+.left-section {
+  display: flex; /* Yatay hizalama */
+  align-items: center; /* Dikeyde ortala */
+  gap: 20px; /* Logo ve menü arasına boşluk */
 }
 
-.logo-class {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+.logo-header {
+  font-size: 24px;
+  font-weight: bold;
   text-decoration: none;
+  color: #000;
 }
 
-.logo-class span.studio-class {
-  color: #2e2f42;
-}
-
-ul {
-  list-style: none;
+.nav-list {
+  display: flex; /* Yatay hizala */
+  gap: 15px; /* Menü elemanları arasında boşluk */
+  list-style: none; /* Liste noktalarını kaldır */
   margin: 0;
   padding: 0;
-  display: flex;
-  gap: 15px;
 }
 
 .nav-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
   text-decoration: none;
-}
-
-.nav-item:hover,
-.nav-item:focus {
-  color: #404bbf;
-}
-
-/* Address Styles */
-address {
-  font-style: normal;
-  padding: 10px 20px;
-  background-color: #f0f0f0;
-}
-
-.address-class ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.address-link {
+  color: #000;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
 }
 
-.address-link:hover,
-.address-link:focus {
-  color: #404bbf;
+.nav-item:hover {
+  color: #007BFF; /* Hover efekti */
 }
-
 
 /* Sağ Bölüm: İletişim Bilgileri */
 .right-section {
@@ -280,6 +242,11 @@ footer p {
 }
 /* Footer Logo */
 footer .footer-logo-image {
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   width: 120px; /* Adjust the size of the logo */
   height: auto;
 }
