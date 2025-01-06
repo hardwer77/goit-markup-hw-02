@@ -169,12 +169,13 @@ p{
 line-height: 1.5;
 color: #F4F4FD;
 letter-spacing: 0.02em;
-}
-.logo-studio-footer{
-  font-family: "Relaway", sans-serif;
+font-family: "Relaway", sans-serif;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.logo-studio-footer{
+  color: #F4F4FD;
 }
