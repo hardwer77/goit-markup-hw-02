@@ -1,250 +1,175 @@
-
-/* General styles */
-body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.6;
+body{
   color: #434455;
-  background-color: #FFFFFF;
-
+  font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF
 }
-/* Genel Header Stilleri */
-.header-nav {
-  display: flex; /* Flexbox düzeni */
-  justify-content: space-between; /* Sol ve sağ tarafı ayır */
-  align-items: center; /* Dikeyde ortala */
-  padding: 10px 20px; /* İçerik boşluğu */
-  background-color: #f8f9fa; /* Arka plan rengi */
-  border-bottom: 1px solid #ddd; /* Alt çizgi */
-}
-
-/* Sol Bölüm: Logo ve Menü */
-.left-section {
-  display: flex; /* Yatay hizalama */
-  align-items: center; /* Dikeyde ortala */
-  gap: 20px; /* Logo ve menü arasına boşluk */
-}
-
-.logo-header {
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #000;
-}
-
-.nav-list {
-  display: flex; /* Yatay hizala */
-  gap: 15px; /* Menü elemanları arasında boşluk */
-  list-style: none; /* Liste noktalarını kaldır */
-  margin: 0;
-  padding: 0;
-}
-
-.nav-item {
-  text-decoration: none;
-  color: #000;
-  font-size: 16px;
-}
-
-.nav-item:hover {
-  color: #007BFF; /* Hover efekti */
-}
-
-/* Sağ Bölüm: İletişim Bilgileri */
-.right-section {
-  margin-left: auto; /* Sağ tarafa yasla */
-  display: flex; /* Yatay hizalama */
-  align-items: center; /* Dikeyde ortala */
-  gap: 20px; /* Email ve Telefon arasında boşluk */
-}
-
-.contact-item {
-  text-decoration: none;
-  font-size: 14px;
-  color: #555;
-}
-
-.contact-item:hover {
-  color: #007BFF; /* Hover efekti */
-}
-
-
-/* Section: Intro */
-#intro {
-  text-align: center;
-  padding: 3rem 1rem;
-  background:  #2e2f42;
-}
-
-#intro h1 {
-  font-size: 2.5rem;
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: 1rem;
-  color: white;
-}
-
-#intro button {
-  background-color: rgb(59, 59, 248);
-  color: white;
-  border: none;
-  padding: 0.8rem 1.5rem;
-  font-size: 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#intro button:hover {
-  background-color: #f3f0f0;
-}
-#intro h1 {
-  font-size: 2.5rem;
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: 1rem;
-  color: white;
-  text-align: center; /* Center-align the heading */
-}
-
-/* Section: Services */
-#services {
-  padding: 2rem 1rem;
-  background-color: #ffff;
-}
-
-#services h2 {
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-
-#services ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#services ul li {
-  background-color: #f3f2f2;
-  border: 1px solid #fff;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(248, 245, 245, 0.1);
-  text-align: center;
-}
-
-#services ul li h3 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-/* Section: About */
-#about {
-  padding: 2rem 1rem;
-}
-
-#about h2 {
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-
-#about ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#about ul li {
-  text-align: center;
-}
-
-#about ul li img {
-  border-radius: 8px;
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
-}
-
-#about ul li h3 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-/* Resim Listesi */
-.image-list {
-  display: grid; /* Grid düzeni kullan */
-  grid-template-columns: repeat(3, 1fr); /* 3 sütun */
-  gap: 20px; /* Elemanlar arasında boşluk */
-  padding: 0;
-  list-style: none; /* Noktaları kaldır */
-  margin: 0 auto; /* Ortalamak için */
-  max-width: 1200px; /* Maksimum genişlik */
-}
-
-/* Her Liste Öğesi */
-.image-list li {
-  background-color: #f9f9f9; /* Hafif arka plan rengi */
-  border: 1px solid #ddd; /* Kenarlık */
-  border-radius: 8px; /* Köşeleri yuvarla */
-  overflow: hidden; /* Taşmaları önle */
-  text-align: center; /* İçeriği ortala */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge */
-  transition: transform 0.3s, box-shadow 0.3s; /* Hover animasyonu */
-}
-
-/* Hover Efekti */
-.image-list li:hover {
-  transform: scale(1.05); /* Biraz büyüt */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Gölgeyi artır */
-}
-
-/* Resimler */
-.image-list img {
-  width: 100%; /* Resmi liste elemanına göre boyutlandır */
-  height: auto;
-}
-
-/* Başlık ve Açıklama */
-.item-title {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 10px 0 5px;
-  color: #333;
-}
-
-.item-description {
-  font-size: 14px;
-}
-/* Footer */
-.altkisim-class {
-  background-color: #2e2f42;
-  padding: 100px 0;
-}
-.alt-logo {
-  display: inline-block;
-  font-family: "Raleway", sans-serif;
+.menu-logo{
+  font-family:"Raleway",sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
   color: #4d5ae5;
-  margin-right: 76px;
-  margin-bottom: 16px;
+  font-style: normal;
 }
-.altkisim-paragraf {
-  display: inline-block;
+h2{
+  text-align: center;
+}
+.menu-menu{
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
-  color: #f4f4fd;
   letter-spacing: 0.02em;
-  max-width: 264px;
+  color: #2e2f42;
 }
-.alt-studio {
-  color: #f4f4fd;
+span{
+color: #2e2f42;
+}
+
+.bar-a{
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  font-weight: 500;
+  
+}
+.menu-menu:hover{
+  color: #404bbf;;
+}
+.menu-menu:focus {
+  color: #404bbf;
+}
+
+.list-bar{
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.menu-adres{
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #434455;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+.info-mail{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.info-mail:hover{
+  color: #404bbf;
+
+}
+.info-mail:focus{
+  color: #404bbf;
+ 
+}
+.section-one{
+  background-color: #2e2f42;
+}
+
+.hero-banner{
+ color:#ffffff;
+ font-family: 'Roboto', sans-serif;
+ font-size: 56px;
+ text-align: center;
+ line-height: 1.07;
+letter-spacing: 0.02em;
+}
+.banner-button{
+
+  color:#ffffff;
+  background-color:#4D5AE5;
+  font-family:"Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  
+  
+  
+}
+.banner-button:hover:hover{
+background-color: #404BBF;
+}
+.banner-button:focus:focus {
+  background-color: #404BBF;
+}
+
+
+
+.title-title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  
+}
+.title-p{
+  font-family: 'Roboto',sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+
+}
+.team-image {
+  background-color: #F4F4FD;
+  list-style-type: none;
+}
+
+
+.middle-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  text-align: center;
+
+}
+.image-image {
+  background-color: #FFFFFF;
+}
+h3{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+
+}
+p{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer{
+  color: #2e2f42;
+  background-color: #2E2F42;
+}
+.footer-p{
+line-height: 1.5;
+color: #F4F4FD;
+letter-spacing: 0.02em;
+}
+.logo-studio-footer{
+  color: #F4F4FD;
 }
