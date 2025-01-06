@@ -20,6 +20,13 @@ body {
 
 /* Sol Bölüm: Logo ve Menü */
 .left-section {
+  font-family: "Raleway";
+  font-weight: 700; 
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   display: flex; /* Yatay hizalama */
   align-items: center; /* Dikeyde ortala */
   gap: 20px; /* Logo ve menü arasına boşluk */
