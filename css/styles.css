@@ -41,6 +41,7 @@
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+
 }
 .banner-button{
   font-family: "Roboto", sans-serif;
@@ -89,10 +90,19 @@
     width: 200px;
 }
 
-.portfolio-image {
+.team-image{
     border-radius: 50%;
     width: 100%;
     height: auto;
+}
+.middle-title{
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
+
 }
 
 .portfolio-name {
