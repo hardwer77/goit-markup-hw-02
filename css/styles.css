@@ -89,12 +89,16 @@
 
 .footer {
     background-color: #333;
-    color: #fff;
+    color: #2e2f42;
     text-align: center;
     padding: 10px;
     margin-top: 20px;
 }
-
+.footer-p{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
+}
 .footer-text {
     font-size: 0.9rem;
 }
