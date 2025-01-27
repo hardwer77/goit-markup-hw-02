@@ -12,8 +12,8 @@
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.span.logo-studio{
-  color: #2e2f42 ;
+.span{
+  color: #2e2f42;
 }
 .list-bar{
   font-weight: 500;
@@ -28,6 +28,11 @@
 }
 .section-one{
   background-color: #2e2f42;
+}
+.p{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
 }
 .h1 .h2 .h3 {
   font-family: "raleway", sans-serif;
@@ -93,11 +98,6 @@
     text-align: center;
     padding: 10px;
     margin-top: 20px;
-}
-.footer-p{
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #F4F4FD;
 }
 .footer-text {
     font-size: 0.9rem;
