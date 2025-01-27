@@ -2,7 +2,7 @@
 /* Reset and normalize styles */
 @import url('https://necolas.github.io/modern-normalize/modern-normalize.css');
 
-body {
+.body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
