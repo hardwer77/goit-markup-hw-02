@@ -42,7 +42,15 @@
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-
+.banner-button{
+  font-family: "Roboto", sans-serif;
+  background-color: #4D5AE5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  
+}
 .header {
     background-color: #007acc;
     color: #fff;
