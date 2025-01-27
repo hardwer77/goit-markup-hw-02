@@ -3,6 +3,16 @@
     background-color: #FFFFFF;
     color: #434455;
 }
+a:hover {
+  color: #404bbf;
+}
+a:focus {
+  color: #404bbf;
+}
+
+
+
+
 .menu-logo{
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -17,12 +27,7 @@
 .span.logo-studio{
   color: #2e2f42;
 }
-a:hover {
-  color: #404bbf;
-}
-a:focus {
-  color: #404bbf;
-}
+
 
 .list-bar{
   font-weight:500;
