@@ -136,15 +136,15 @@ text-transform: uppercase;
 color: #4d5ae5;
 font-style: normal;
 }
+
+.menü-logo .span{
+  color: #2e2f42;
+}
 .info-mail{
 color: #2e2f42;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-}
-
-.span .logo-studio {
-color: #2e2f42;
 }
 
 .list-bar{
