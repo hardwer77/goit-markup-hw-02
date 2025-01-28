@@ -140,7 +140,7 @@ a:focus {
 }
 
 .menü-logo .span {
-  color: #2e2f42;
+  color: #2e2f42!important ;
 }
 .info-mail {
   color: #2e2f42;
