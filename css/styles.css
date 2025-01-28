@@ -78,30 +78,14 @@ a:focus {
   letter-spacing: 0.02em;
   color: #434455
 }
-/* Genel h3 başlık stili */
-h3 {
+.title-title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-/* Eğer bir sınıfla özelleştirilmiş h3 varsa */
-.title-title {
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-/* Eğer h3, .image-image içinde kullanılıyorsa */
-.image-image h3 {
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
+ }
 .team-image {
   background-color: #F4F4FD;
   list-style-type: none;
@@ -120,14 +104,12 @@ h3 {
  .image-image {
   background-color: #FFFFFF;
 }
-.image-image .h3{
-  font-weight: 500;
+.image-image h3 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
 p{
   line-height: 1.5;
   letter-spacing: 0.02em;
