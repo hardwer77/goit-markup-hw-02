@@ -232,6 +232,14 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 font-family: "Roboto", sans-serif;
 }
+.team-section .h3{
+  font-family: relaway, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 .footer{
 color: #2e2f42;
 background-color: #2E2F42;
@@ -249,6 +257,11 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 }
+
+
+
+
+
 .footer{
   color: #2e2f42;
   background-color: #2E2F42;
