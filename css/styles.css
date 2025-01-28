@@ -104,7 +104,7 @@ a:focus {
  .image-image {
   background-color: #FFFFFF;
 }
-.image-image .h3 {
+.image-image .team-name{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
