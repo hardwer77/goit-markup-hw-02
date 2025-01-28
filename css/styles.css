@@ -90,6 +90,14 @@ a:focus {
   background-color: #F4F4FD;
   list-style-type: none;
 }
+.team-image .h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 
 .middle-title{
   font-size: 36px;
