@@ -18,8 +18,15 @@ a:focus {
   text-transform: uppercase;
   color: #4d5ae5;
   font-style: normal;
-
 }
+.a{
+  color: #2e2f42;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+
 .logo-studio{
   color: #2e2f42;
 }
