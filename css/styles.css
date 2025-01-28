@@ -199,11 +199,11 @@ a:focus {
   color: #2e2f42;
 }
 .team-image .team-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 1.2 !important;
+  letter-spacing: 0.02em !important;
+  color: #2e2f42 !important;
 }
 .middle-title {
   font-size: 36px;
@@ -223,8 +223,7 @@ p {
   letter-spacing: 0.02em;
   font-family: "Roboto", sans-serif;
 }
-.team-section .h3 {
-  font-family: relaway, sans-serif;
+.team-section .team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
