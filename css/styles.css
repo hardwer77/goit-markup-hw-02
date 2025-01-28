@@ -20,9 +20,11 @@ a:focus {
   font-style: normal;
 }
  .span {
-  color: #2e2f42;
+  color: #2e2f42 !important;
 }
-
+.menü-menü{
+  color: #2e2f42 !important;
+}
 .info-mail {
   color: #2e2f42;
   line-height: 1.5;
