@@ -198,19 +198,13 @@ a:focus {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.team-image {
-  background-color: #f4f4fd;
-}
-.h3 .team-name  {
+.team-image .team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  background-color: #f4f4fd;
   color: #2e2f42;
-  list-style-type: none;
 }
-
 .middle-title {
   font-size: 36px;
   line-height: 1.11;
