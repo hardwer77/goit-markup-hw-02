@@ -226,13 +226,7 @@ color: #2e2f42;
 .image-image {
 background-color: #FFFFFF;
 }
-.section-fourt .h3{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
-}
+
 p{
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -255,11 +249,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 }
-
-
-
-
-
 .footer{
   color: #2e2f42;
   background-color: #2E2F42;
