@@ -22,12 +22,11 @@ a:focus {
   font-style: normal;
   
 }
- .menü-logo .span{
+ .span{
   color: #2e2f42 !important;
 }
-.menü-menü{
-  color: #2e2f42 !important;
-}
+
+
 .info-mail {
   color: #2e2f42;
   line-height: 1.5;
@@ -243,7 +242,7 @@ p {
   color: #2e2f42;
   background-color: #2e2f42;
 }
-.menü-logo .logo-studio-footer{
+ .footer .span{
   color: #2e2f42!important ;
 }
 .footer-p {
