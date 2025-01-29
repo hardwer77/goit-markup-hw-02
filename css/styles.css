@@ -207,7 +207,8 @@ a:focus {
 team-name {
   background-color: #f4f4fd!important ;
  }
-.team-image .h3 {
+
+ .h3 {
   background-color: #f4f4fd!important ;
   font-weight: 500 !important;
   font-size: 20px !important;
