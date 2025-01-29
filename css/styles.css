@@ -253,8 +253,8 @@ p {
   color: #4d5ae5;
 }
 
- .logo-studio-footer{
-  color: #2e2f42 !important;
+.logo-studio-footer {
+  color: #2e2f42; /* Metin rengini belirler */
  }
 .footer-p {
   line-height: 1.5;
