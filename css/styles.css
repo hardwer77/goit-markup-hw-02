@@ -9,7 +9,9 @@ a:hover {
 a:focus {
   color: #404bbf;
 }
-
+.menü-menü{
+  color: #2e2f42;
+}
 
 .menu-logo {
   font-family: "Raleway", sans-serif;
